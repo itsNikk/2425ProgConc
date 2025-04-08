@@ -1,4 +1,4 @@
-package SurpriseTimer;
+package quartaBI.PrimiEserciziNoSynch.SurpriseTimerV2;
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class Main {
         b.start();
         b2.start();
 
+        //"Interrompo" qui il main
         s.nextLine();
         b.interrupt();
 

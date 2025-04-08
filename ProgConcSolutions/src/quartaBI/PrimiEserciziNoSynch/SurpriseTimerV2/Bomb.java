@@ -1,4 +1,4 @@
-package SurpriseTimer;
+package quartaBI.PrimiEserciziNoSynch.SurpriseTimerV2;
 
 public class Bomb extends Thread {
 
