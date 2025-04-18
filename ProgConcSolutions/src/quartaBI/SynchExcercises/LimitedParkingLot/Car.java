@@ -10,6 +10,8 @@ public class Car implements Runnable {
 
     @Override
     public void run() {
-        parkingLot.entra(Thread.currentThread());
+        while (!Thread.currentThread().isInterrupted()) {
+            parkingLot.entra(Thread.currentThread());
+        }
     }
 }

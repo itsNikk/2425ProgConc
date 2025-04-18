@@ -22,6 +22,7 @@ public class ParkingLot {
             System.out.println(car.getName() + " esce dal parcheggio (Posti disponibili: " + parkingLotSemaphore.availablePermits() + ")");
         } catch (InterruptedException e) {
             System.out.println(car.getName() + " interrotto");
+            Thread.currentThread().interrupt();
         }
     }
 
