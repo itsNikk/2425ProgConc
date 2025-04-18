@@ -17,6 +17,7 @@ public class Main {
 
         Thread.sleep(OPENING_TIME);
         for (Thread t : cars) t.interrupt();
+        for (Thread t : cars) t.join();
         System.out.println("Fine della giornata di lavoro, il parcheggio chiude");
     }
 }
