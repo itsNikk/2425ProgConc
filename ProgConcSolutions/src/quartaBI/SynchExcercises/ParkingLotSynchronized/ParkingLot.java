@@ -14,8 +14,8 @@ public class ParkingLot {
     }
 
     public synchronized void exit(Car c) {
-        System.out.println(c.getName() + " esce dal parcheggio (PL: " + postiLiberi + ")");
         postiLiberi++;
+        System.out.println(c.getName() + " esce dal parcheggio (PL: " + postiLiberi + ")");
         notify();
     }
 
