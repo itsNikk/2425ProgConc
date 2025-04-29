@@ -13,7 +13,6 @@ public class Main {
 
         for (int i = 0; i < 10; i++) threads.add(new PrinterThread(p));
         for (Thread t : threads) t.start();
-
         for (Thread t : threads) t.join();
 
         long endTime = System.currentTimeMillis() - startTime;
