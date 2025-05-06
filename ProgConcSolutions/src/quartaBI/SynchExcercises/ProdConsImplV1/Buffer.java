@@ -13,26 +13,28 @@ public class Buffer {
     }
 
     public synchronized void addElement(int elem) throws InterruptedException {
+        String threadName = Thread.currentThread().getName();
         if (buffer.size() == size) {
             System.out.println(
-                    Thread.currentThread().getName() + " attende. Vettore pieno (" + buffer.size() + ")");
+                    threadName + " attende. Vettore pieno (" + buffer.size() + ")");
             wait();
         }
 
         buffer.add(elem);
         System.out.println(
-                Thread.currentThread().getName() + " ha aggiunto: " + elem + ". (" + buffer.size() + ")");
+                threadName + " ha aggiunto: " + elem + ". (" + buffer.size() + ")");
         notify();
     }
 
     public synchronized Integer getElement() throws InterruptedException {
+        String threadName = Thread.currentThread().getName();
         if (buffer.isEmpty()) {
-            System.out.println(Thread.currentThread().getName() + " attende. Array Vuoto (" + buffer.size() + ")");
+            System.out.println(threadName + " attende. Array Vuoto (" + buffer.size() + ")");
             wait();
         }
 
         Integer elemToRemove = buffer.remove(0);
-        System.out.println(Thread.currentThread().getName() + " consuma " + elemToRemove + ". (" + buffer.size() + ")");
+        System.out.println(threadName + " consuma " + elemToRemove + ". (" + buffer.size() + ")");
         notify();
         return elemToRemove;
     }
