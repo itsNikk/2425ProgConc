@@ -20,7 +20,7 @@ public class Buffer {
         }
 
         System.out.println(
-                Thread.currentThread().getName() + " ha aggiunto: " + elem);
+                Thread.currentThread().getName() + " ha aggiunto: " + elem + ". (" + buffer.size() + ")");
         buffer.add(elem);
         notify();
     }
