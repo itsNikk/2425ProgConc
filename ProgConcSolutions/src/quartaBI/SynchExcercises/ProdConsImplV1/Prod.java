@@ -23,6 +23,7 @@ public class Prod extends Thread {
         for (int i = 0; i < MAX_ITER; i++) {
             try {
                 buffer.addElement(r.nextInt(2, 20));
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 System.out.println(getName() + " interrotto.");
             }

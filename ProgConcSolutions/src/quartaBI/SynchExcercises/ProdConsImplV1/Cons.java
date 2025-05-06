@@ -15,6 +15,7 @@ public class Cons extends Thread {
         for (int i = 0; i < MAX_ITER; i++) {
             try {
                 int val = buffer.getElement();
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 System.out.println(getName() + " interrotto.");
             }
