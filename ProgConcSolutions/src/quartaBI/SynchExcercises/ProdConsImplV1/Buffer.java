@@ -15,14 +15,12 @@ public class Buffer {
     public synchronized void addElement(int elem) throws InterruptedException {
         String threadName = Thread.currentThread().getName();
         if (buffer.size() == size) {
-            System.out.println(
-                    threadName + " attende. Vettore pieno (" + buffer.size() + ")");
+            System.out.println(threadName + " attende. Vettore pieno (" + buffer.size() + ")");
             wait();
         }
 
         buffer.add(elem);
-        System.out.println(
-                threadName + " ha aggiunto: " + elem + ". (" + buffer.size() + ")");
+        System.out.println(threadName + " ha aggiunto: " + elem + ". (" + buffer.size() + ")");
         notify();
     }
 
