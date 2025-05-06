@@ -1,4 +1,4 @@
-package ClassiQuarte.BI.Esercizi.BouncerAlternativeSolution;
+package quartaBI.SynchExcercises.BouncerAlternativeSolution;
 
 public class Bouncer {
     private int capacitaMassima;

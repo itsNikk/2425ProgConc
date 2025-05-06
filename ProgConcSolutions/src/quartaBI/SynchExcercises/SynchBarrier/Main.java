@@ -1,4 +1,4 @@
-package ClassiQuarte.BI.Esercizi.SynchBarrier;
+package quartaBI.SynchExcercises.SynchBarrier;
 
 public class Main {
     private static final int NUM_THREADS = 5;

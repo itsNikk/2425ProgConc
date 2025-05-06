@@ -1,4 +1,4 @@
-package ClassiQuarte.BI.Esercizi.StazioneFerroviaria_V2;
+package quartaBI.SynchExcercises.StazioneFerroviaria_V2;
 
 public class Binario {
     private int numeroBinario;

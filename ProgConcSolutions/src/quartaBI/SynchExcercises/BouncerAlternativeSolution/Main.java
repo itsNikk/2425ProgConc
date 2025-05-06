@@ -1,4 +1,4 @@
-package ClassiQuarte.BI.Esercizi.BouncerAlternativeSolution;
+package quartaBI.SynchExcercises.BouncerAlternativeSolution;
 
 import java.util.ArrayList;
 

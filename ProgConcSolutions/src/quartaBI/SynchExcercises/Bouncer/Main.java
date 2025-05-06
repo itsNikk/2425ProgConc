@@ -1,4 +1,4 @@
-package ClassiQuarte.BI.Esercizi.Bouncer;
+package quartaBI.SynchExcercises.Bouncer;
 
 import java.util.Random;
 

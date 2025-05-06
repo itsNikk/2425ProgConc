@@ -1,4 +1,4 @@
-package ClassiQuarte.BI.Esercizi.BouncerAlternativeSolution;
+package quartaBI.SynchExcercises.BouncerAlternativeSolution;
 
 public class Client extends Thread {
     private int eta;

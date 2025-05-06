@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c73a1734-f406-49c8-b9e5-2f3f84d33edb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/Bouncer/Buttafuori.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/Bouncer/Buttafuori.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/Bouncer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/Bouncer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/Bouncer/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/Bouncer/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/BouncerAlternativeSolution/Bouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/BouncerAlternativeSolution/Bouncer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/BouncerAlternativeSolution/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/BouncerAlternativeSolution/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/BouncerAlternativeSolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/BouncerAlternativeSolution/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V1/Stazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V1/Stazione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V1/Treno.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V1/Treno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Binario.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Binario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Stazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Stazione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Treno.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/StazioneFerroviaria_V2/Treno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/SynchBarrier/BarrierThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/SynchBarrier/BarrierThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/SynchBarrier/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/SynchBarrier/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/SynchBarrier/SynchBarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgConcSolutions/src/quartaBI/SynchExcercises/SynchBarrier/SynchBarrier.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2wiZ3hrMOhFu0e0CEx3pzlrtMGL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quartaBI.SynchExcercises.ProdConsImplV1.Main" />
+      <module name="2425ProgConc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quartaBI.SynchExcercises.ProdConsImplV1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c73a1734-f406-49c8-b9e5-2f3f84d33edb" name="Changes" comment="" />
+      <created>1746526158679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746526158679</updated>
+    </task>
+    <servers />
+  </component>
+</project>
