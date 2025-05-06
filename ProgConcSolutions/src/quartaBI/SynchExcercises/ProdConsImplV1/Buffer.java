@@ -19,9 +19,9 @@ public class Buffer {
             wait();
         }
 
+        buffer.add(elem);
         System.out.println(
                 Thread.currentThread().getName() + " ha aggiunto: " + elem + ". (" + buffer.size() + ")");
-        buffer.add(elem);
         notify();
     }
 
