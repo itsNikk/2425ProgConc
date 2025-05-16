@@ -25,12 +25,16 @@ public class SharedResource {
         }
 
         buffer.add(val);
+        notify();
         System.out.println(Thread.currentThread().getName() + " ha inserito " + val + "(" + buffer.size() + ")");
     }
 
     // cahiamto solo dal consumatore
     public synchronized int getValue() throws InterruptedException {
-        if (buffer.isEmpty()) wait();
+        if (buffer.isEmpty()) {
+            System.out.println(Thread.currentThread().getName() + "dorme.");
+            wait();
+        }
 
         int removedVal = buffer.remove(0);
         notify();

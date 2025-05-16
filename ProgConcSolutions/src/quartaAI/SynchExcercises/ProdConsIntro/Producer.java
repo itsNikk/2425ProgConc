@@ -18,6 +18,7 @@ public class Producer extends Thread {
             int val = (int) (Math.random()
                     * (100 - 1)) + 1;
             try {
+                Thread.sleep(500);
                 sharedResource.addValue(val);
             } catch (InterruptedException e) {
                 System.out.println(getName() + " Interrotto.");
