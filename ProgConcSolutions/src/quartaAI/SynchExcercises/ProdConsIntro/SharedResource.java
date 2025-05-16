@@ -29,10 +29,13 @@ public class SharedResource {
     }
 
     // cahiamto solo dal consumatore
-    public synchronized void getValue(){
-        // se vuoto FERMA
-        // altrimenti preleva ed elimina un valore dal buffer
-        //sveglia qualcuno
+    public synchronized int getValue() throws InterruptedException {
+        if (buffer.isEmpty()) wait();
+
+        int removedVal = buffer.remove(0);
+        notify();
+        System.out.println(Thread.currentThread().getName() + "  ha ottenuto " + removedVal + "(" + buffer.size() + ")");
+        return removedVal;
     }
 
 }
