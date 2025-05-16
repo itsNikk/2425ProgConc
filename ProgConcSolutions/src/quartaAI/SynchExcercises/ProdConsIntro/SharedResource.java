@@ -34,6 +34,7 @@ public class SharedResource {
 
         int removedVal = buffer.remove(0);
         notify();
+
         System.out.println(Thread.currentThread().getName() + "  ha ottenuto " + removedVal + "(" + buffer.size() + ")");
         return removedVal;
     }
