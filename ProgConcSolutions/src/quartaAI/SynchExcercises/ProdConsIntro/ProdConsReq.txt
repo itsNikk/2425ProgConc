@@ -1,0 +1,14 @@
+Prod/Conc
+
+1) Creare progetetto con 3 classi
+	Produttore
+	Consumatore
+	Risorsa
+	Main
+2) Risorsa:
+    non è un thread
+    Prducer: è un thread
+    Conusumer: è u n THread
+3) Produttore DONE
+4) Consumatore
+    - 1) un metodo removeItem()
