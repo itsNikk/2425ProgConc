@@ -30,7 +30,9 @@ public class SharedResource {
 
     // cahiamto solo dal consumatore
     public synchronized void getValue(){
-        
+        // se vuoto FERMA
+        // altrimenti preleva ed elimina un valore dal buffer
+        //sveglia qualcuno
     }
 
 }
