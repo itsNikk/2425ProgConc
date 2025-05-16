@@ -15,8 +15,7 @@ public class Producer extends Thread {
         // per 20 volte genera un numero
         // a ccaso e mettilo nella risorsa
         for (int i = 0; i < MAX_ITERATIONS; i++) {
-            int val = (int) (Math.random()
-                    * (100 - 1)) + 1;
+            int val = (int) (Math.random() * (100 - 1)) + 1;
             try {
                 Thread.sleep(500);
                 sharedResource.addValue(val);

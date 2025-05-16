@@ -19,25 +19,25 @@ public class SharedResource {
 
     //chiamsto solo dal produttore
     public synchronized void addValue(int val) throws InterruptedException {
-        if (buffer.size() == MAX) {
+        while (buffer.size() == MAX) {
             System.out.println(Thread.currentThread().getName() + " aspetta. (" + buffer.size() + ")");
             wait();
         }
 
         buffer.add(val);
-        notify();
+        notifyAll();
         System.out.println(Thread.currentThread().getName() + " ha inserito " + val + "(" + buffer.size() + ")");
     }
 
     // cahiamto solo dal consumatore
     public synchronized int getValue() throws InterruptedException {
-        if (buffer.isEmpty()) {
+        while (buffer.isEmpty()) {
             System.out.println(Thread.currentThread().getName() + "dorme.");
             wait();
         }
 
         int removedVal = buffer.remove(0);
-        notify();
+        notifyAll();
 
         System.out.println(Thread.currentThread().getName() + "  ha ottenuto " + removedVal + "(" + buffer.size() + ")");
         return removedVal;

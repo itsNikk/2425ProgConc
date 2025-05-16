@@ -14,7 +14,7 @@ public class Consumer extends Thread {
         for (int i = 0; i < 20; i++) {
             try {
                 sharedResource.getValue();
-                Thread.sleep(1500);
+                Thread.sleep(1);
             } catch (InterruptedException d) {
                 System.out.println(getName() + " interrotto.");
             }
